@@ -1,0 +1,686 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* start of conract info */
+.contact-info {
+  background-color: #fff;
+  padding: 10px 60px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  font-size: 14px;
+  color: #666;
+}
+.contact-info a {
+  text-decoration: none;
+  color: #666;
+}
+/* end of conract info */
+
+/* Header Section */
+.cotainer-header {
+  color: #fff;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #00b894;
+  height: 64px;
+}
+header {
+  background-color: white;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+}
+
+header .logo {
+  background-color: #fff;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+header .logo span {
+  color: blue;
+  text-align: center;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+header ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  margin: 0;
+}
+
+header .nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: auto; 
+}
+.nav-right span {
+  padding-right: 1px;
+}
+
+
+/* end of header */
+
+/*stat mico Section */
+
+.mico {
+  width: 90%;
+  padding: 50px 50px;
+  background-image: url(../images/dots.png);
+  height: 100vh;
+  background-size: cover;
+  background-position-y: bottom;
+  background-attachment: fixed;
+  z-index: 1;
+  border-bottom: 8px solid #eeeeee;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 255, 0.2);
+}
+.mico .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hospital {
+  color: #00b894;
+  display: block;
+}
+.mico-text {
+  align-content: center;
+  padding-left: 20px;
+}
+.mico-text button {
+  background-color: #000000;
+  padding: 10px 25px;
+  border-radius: 4px;
+  border: 2px solid #000000;
+  color: #fff;
+  cursor: pointer;
+}
+.mico-text h1 {
+  font-size: 2.2rem;
+  width: 50%;
+}
+.mico-text p {
+  font-size: .9rem;
+  width: 70%;
+}
+
+.mico-image img {
+  max-width: 100%;
+}
+/* end mico */
+
+/* star for form */
+.form-sect {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  width: 100%;
+}
+.form-container {
+  background: #fff;
+  padding: 20px;
+  width: 80%;
+  border-radius: 8px solid #eeeeee;
+  box-shadow: 0 4px 10px #eeeeee;
+}
+
+.form-container h2 span { 
+  color: #00b894;
+}
+.form-container h2 .book1 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #333;
+  text-decoration: underline;
+  text-decoration-color: #00b894; /* Change this to your desired color */
+
+}
+
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.form-grid label {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  color: #555;
+  display: block;
+}
+
+.form-grid input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.form-grid select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-top: 5px;
+  color: #555;
+  margin-bottom: 10px;
+
+}
+
+
+.form-group select option {
+padding: 10px 0px;
+  outline: none;
+}
+
+.form-group {
+  margin-right: 20px;
+}
+.form-container button {
+  background-color: #000000;
+  padding: 10px 25px;
+  border-radius: 4px;
+  border: 2px solid #000000;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px 0px;
+}
+/*  */
+
+.mico2 {
+  width: 90%;
+  padding: 50px 50px;
+}
+.mico2 .container {
+  display: flex;
+  justify-content: center;
+
+  flex-direction: row-reverse;
+}
+.hospital2 {
+  color: #00b894;
+}
+.mico2-text {
+  align-content: center;
+  padding-left: 20px;
+}
+.mico2-text button {
+  background-color: #000000;
+  padding: 10px 25px;
+  border-radius: 4px;
+  border: 2px solid #000000;
+  color: #fff;
+  cursor: pointer;
+}
+.mico2-text h1 {
+  font-size: 2.5rem;
+  width: 50%;
+}
+
+.mico2-image img {
+  max-width: 100%;
+}
+/* end mico2 */
+
+/*START OF SERVICES SECTION*/
+.services {
+  padding: 30px 0;
+}
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+      margin-left: 75px;
+}
+
+.product {
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+      text-align: left;
+}
+
+.product img {
+  width: 30%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product h3 {
+  margin: 10px 0 5px;
+  font-size: 1.5em;
+      text-align: left;
+}
+
+.product p {
+  font-size: 0.6em;
+  color: #666;
+}
+.title span {
+  color: #00b894;
+}
+.product span {
+  color: #00b894;
+display: flex;
+}
+/*END   OF SERVICES SECTION*/
+
+.slider {
+  padding: 30px 0px;
+  background-color: #00b894;
+}
+.slider .title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+.allslider {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  position: relative;
+  padding: 30px 0;
+}
+
+.slider-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  align-items: center;
+}
+
+.Doctors {
+  background-color: white;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  width: 20%;
+}
+
+.Doctors img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: -40px;
+}
+
+.Doctors h3 {
+  margin: 10px 0 5px;
+  font-size: 1.5em;
+  color: #000000;
+}
+
+
+
+.Doctors p {
+  font-size: 0.9em;
+  color: #00b894;
+}
+
+.slider span {
+  color: #ffffff;
+  text-align: left;
+}
+.slider .links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0px;
+  
+}
+.slider ul, .slider li   {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.allslider .prev,
+.allslider .next {
+  position: absolute;
+  top: 50%;
+font-size: 20px;
+  background-color: #fff;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  align-items: center;
+  
+}
+.allslider .prev {
+  left: 1rem;
+}
+
+.allslider .next {
+  right: 1rem;
+}
+/* end of slider */
+/* start of testimonial */
+.test{
+  padding: 30px 30px;
+}
+.test h3 {
+  text-align: left;
+  padding-left: 30px;
+  color: #00b894;
+}
+.alltest{
+  margin: 20px 50px;
+  border: 1px solid #9fa8aa;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.flex-text{ 
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 5px 40px ;
+}
+.text1 .p1{
+  color: #00b894;
+  font-size: 20px;
+
+}
+.text1 .p2{
+  text-align: center;
+  color: #555;
+}
+
+.text2{
+  margin-top: 22px;
+}
+.text3{
+  padding: 5px 40px ;
+  color : #000000;
+margin-bottom: 20px;
+}
+/* end of test */
+/* touch */
+.touch {
+  width: 90%;
+  padding: 50px 50px;
+}
+.touch .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.touch-text {
+  align-content: center;
+  padding-left: 20px;
+}
+.touch-text button {
+  background-color: #000000;
+  padding: 10px 25px;
+  border-radius: 4px;
+  border: 2px solid #000000;
+  color: #fff;
+  cursor: pointer;
+}
+.touch-text h2 {
+  font-size: 1.5rem;
+}
+
+.touch-image img {
+  max-width: 100%;
+}
+input {
+  display: block;
+  margin: 10px 3px;
+  padding: 5px 10px;
+  width: 400px;
+}
+ textarea{
+  display: block;
+  margin: 10px 3px;
+  padding: 15px 10px;
+  width: 400px;
+}
+.touch button{
+  display: block;
+  text-decoration: none;
+  border: 0px;
+  padding: 10px 40px;
+  background-color: #00b894;
+}
+/* end of section  */
+/*  start of footer */
+.footer{
+  background-color: #252020;
+}
+.mail{
+  padding: 20px 60px 0px 60px;
+  color: #666;
+  display: flex;
+  justify-content: space-between;
+}
+.mail-cont{
+font-size: 20px;}
+
+.subs1{
+  color: #00b894;
+  text-decoration: none;
+  background-color: transparent;
+  border: 0px;
+}
+.mail-cont2 input {
+  display: block;
+  margin: 0px 3px;
+  padding: 0px 10px;
+  width: 685px;
+  height: 20px;
+  background-color: #252020;
+  border-color: transparent transparent white transparent;
+}
+
+.footer-container{    
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  color: #fff;
+}
+.footer-container ul ,
+.footer-container li{
+  list-style: none; 
+  
+  gap: 20px;
+  padding: 9px ;
+  margin: 0;
+  font-size: 13px;
+}
+.content1 .links{   
+  margin-top: 20px;
+}
+.content1 .links ul ,
+.content1 .links li{
+  list-style: none; 
+  display: flex;
+  gap: 10px;
+  padding: 0;
+}
+
+.content1 {
+  margin: 20px 10px;
+    position: relative;
+
+}
+.o-padd{
+      padding-left: 10px;
+
+}
+.o-padd1{
+      padding-left: 13px;
+
+}
+.spacial{
+     width: 12px;
+    height: 12px;
+    background-color: #00b894;
+    position: absolute;
+    margin-left: -15px;
+}
+ 
+ li .special11 {
+    padding: 8px 8px;
+ }
+
+.latest1 ul,
+.latest1 li{
+  list-style: none; 
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 10 0px;
+}
+.latest1{
+  margin: 20px 10px;
+}
+.latest1 span{
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+.latest1 img{
+  width: 100%;
+  height: 100%;
+}
+.content1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.rights{
+  color: #fff;
+  text-align: center;
+  padding: 20px 0px;
+}
+/* end of footer */
+
+/* Responsive Design */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .cotainer-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+  .mico-text h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .container-header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+  
+  header ul {
+      flex-direction: column;
+    gap: 10px;
+  }
+
+  header .nav-right {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .product-container {
+    padding: 0 20px; /* Reduce side spacing on smaller screens */
+  }
+
+  .product {
+    width: 100%;
+    display: block;}
+}
+
+@media (max-width: 480px) {
+  .contact-info {
+    padding: 10px 20px;
+  }
+  .cotainer-header {
+    gap: 10px;
+  }
+  .form-container {
+    width: 95%;
+    padding: 15px;
+  }
+  .mico {
+    padding: 30px 20px;
+  }
+  .mico-text button {
+    padding: 8px 20px;
+    font-size: 0.9rem;
+  }
+  .services.product {
+   
+    width: 100%;
+    display: block;
+   }
+   .Doctors{
+    background-color: white;
+    padding: 4px;
+    margin: 50px;
+    text-align: center;
+    width: 33%;
+   }
+   .slider-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.rights {
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  padding: 0px 0px;
+}
